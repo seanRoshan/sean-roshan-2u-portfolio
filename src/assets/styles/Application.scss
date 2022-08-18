@@ -1,0 +1,63 @@
+.app-footer-container {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    min-height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0;
+    background-color: grey;
+}
+
+.app-content-container {
+    min-height: calc(100vh - 115px);
+    max-width: 648px;
+    margin: 10px auto !important;
+    padding: 10px !important;
+    border: none;
+}
+
+.ui.menu {
+    margin: 0 !important;
+}
+
+.application-navbar {
+    padding: 10px 10px !important;
+    border-bottom: 1px solid grey !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .spin {
+        animation: logo-spin-animation infinite 2s linear;
+    }
+}
+
+@keyframes logo-spin-animation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.copy-right {
+    font-size: 12px;
+    color: white;
+
+    .copy-right-link {
+        line-height: 20px;
+        vertical-align: middle;
+        padding: 0 5px;
+        font-weight: bold;
+        text-decoration: none;
+        color: inherit;
+
+        &:hover {
+            color: #61DAFB;
+        }
+    }
+}

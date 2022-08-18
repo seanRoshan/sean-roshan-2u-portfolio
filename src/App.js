@@ -1,9 +1,46 @@
+import React, { useState } from 'react';
+import Nav from './components/Nav';
+import Footer from './components/Footer';
+import About from './components/About';
+import { Segment } from "semantic-ui-react";
 function App() {
+
+  const [navigationItems] = useState([
+    {
+      name: 'aboutme',
+      title: 'About Me'
+    },
+    {
+      name: 'portfolio',
+      title: 'Portfolio'
+    },
+    {
+      name: 'contract',
+      title: 'Contract'
+    },
+    {
+      name: 'resume',
+      title: 'Resume'
+    }
+  ])
+
+  const [currentNavItem, setCurrentNavItem] = useState(navigationItems[0]);
+
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>TEST</h1>
-      </header>
+      <div className="header">
+        <header>
+          <Nav navItems={navigationItems} setCurrentNavItem={setCurrentNavItem} currentNavItem={currentNavItem}></Nav>
+        </header>
+      </div>
+      <section>
+        <Segment basic className="app-content-container">
+          {currentNavItem.name === 'aboutme' && <About />}
+        </Segment>
+      </section>
+      <div className="app-footer-container"><Footer /></div>
     </div>
   );
 }
