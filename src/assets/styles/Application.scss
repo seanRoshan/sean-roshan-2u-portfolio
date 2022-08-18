@@ -2,10 +2,9 @@
     position: fixed;
     width: 100%;
     bottom: 0;
-    min-height: 20px;
-    line-height: 20px;
-    vertical-align: middle;
-    text-align: center;
+    min-height: 50px;
+    line-height: 50px;
+    height: 50px;
     padding: 0;
     background-color: grey;
 }
@@ -45,24 +44,53 @@
 
 
 .copy-right {
-    font-size: 12px;
+
+    font-size: 16px;
     color: white;
+    vertical-align: middle;
+    height: 50px;
+    line-height: 50px;
+    text-align: right;
+    margin-right: 20px;
 
     .copy-right-link {
-        line-height: 20px;
-        vertical-align: middle;
-        padding: 0 5px;
+        padding-left: 5px;
         font-weight: bold;
         text-decoration: none;
         color: inherit;
 
         &:hover {
-            color: #61DAFB;
+            color: #61DAFB !important;
         }
     }
 }
 
+.icon-container{
+    font-size: 16px;
+    color: white;
+    vertical-align: middle;
+    height: 50px;
+    line-height: 50px;
+    text-align: left;
+    margin-left: 20px;
+
+    
+
+    .icon-clickable{
+        &:hover {
+            color: #61DAFB !important;
+            cursor: pointer;
+        }
+    }
+}
+
+
 .aboutme-description{
     font-size: 20px !important;
     padding: 10px;
+}
+
+.aboutme-header{
+    padding-top: 10px;
+    padding-left: 10px;
 }

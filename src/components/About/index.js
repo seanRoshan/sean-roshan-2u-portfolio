@@ -1,4 +1,4 @@
-import { Card, Image, Segment, Container } from 'semantic-ui-react'
+import { Card, Image, Container } from 'semantic-ui-react'
 import profile_photo from "../../assets/profile_photo.jpg";
 
 function About() {
@@ -7,7 +7,7 @@ function About() {
             raised
             fluid
             color='yellow'>
-            <Card.Header><h1>About Me</h1></Card.Header>
+            <Card.Header><h1 className='aboutme-header'>Sean Roshan</h1></Card.Header>
             <Card.Description>
                 <div className='aboutme-description'>
                     <Image size='small' src={profile_photo} floated='left' />

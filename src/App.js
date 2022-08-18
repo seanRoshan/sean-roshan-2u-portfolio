@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 import About from './components/About';
+import ContactForm from './components/ContactForm';
 import { Segment } from "semantic-ui-react";
 function App() {
 
@@ -15,8 +16,8 @@ function App() {
       title: 'Portfolio'
     },
     {
-      name: 'contract',
-      title: 'Contract'
+      name: 'contact',
+      title: 'Contact'
     },
     {
       name: 'resume',
@@ -38,6 +39,7 @@ function App() {
       <section>
         <Segment basic className="app-content-container">
           {currentNavItem.name === 'aboutme' && <About />}
+          {currentNavItem.name === 'contact' && <ContactForm />}
         </Segment>
       </section>
       <div className="app-footer-container"><Footer /></div>
