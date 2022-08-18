@@ -1,6 +1,52 @@
-# Getting Started with Create React App
+# Sean Roshan Portfolio Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Being a web developer means being part of a community. A portfolio is a great place to share projects not only to apply for jobs or working as a freelancer but also so to share projects with fellow developers and collaborate on future projects. This project shows projects that Sean Roshan has done so far.
+
+## How to start
+
+In the project directory, you can run:
+
+### `npm install`
+### `npm start`
+
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+## Project Structure
+```bash
+├── README.md - This file.
+├── package.json # npm package manager file. It's unlikely that you'll need to modify this.
+├── public
+│   ├── favicon.ico   # React Icon, You may change if you wish.
+│   └── index.html    # DO NOT MODIFY
+│── src
+│   │── assets  # Contains assets and scss files
+│   ├── components
+│   │   ├──  About  # About  component to show About me page
+│   │   ├──  ContactForm # ContactForm component to show Contact form 
+│   │   ├──  footer # Footer component to show page footer  
+│   │   ├──  Nav    # Nav component to show page Navbar  
+│   │   ├──  Portfolio # Portfolio component to show project Portfolios
+│   │   ├──  Project # Project component to show single project
+│   │   ├──  Resume # Resume component to show resume
+│   ├── utils
+│   │   ├──  helper.js  # Contains helper functions
+├── App.js # index.css # Global styles. You probably won't need to change anything here.
+└── index.css # Overall style of the website
+└── index.js # You should not need to modify this file. It is used for DOM rendering only.
+```
+
+## Pages
+### About Me
+Shows recent photo of the developer and a short bio about them.
+### Portfolio
+Shows titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository
+### Contact
+Contact form with fields for a name, an email address, and a message
+### Resume
+Shows a link to a downloadable resume and a list of the developer’s proficiencies
+
+
 
 ## Available Scripts
 

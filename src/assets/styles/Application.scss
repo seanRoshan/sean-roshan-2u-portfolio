@@ -74,6 +74,10 @@
     line-height: 50px;
     text-align: left;
 
+    .footer{
+        margin-left: 10px;
+    }
+
     .icon-clickable{
         &:hover {
             color: #61DAFB !important;

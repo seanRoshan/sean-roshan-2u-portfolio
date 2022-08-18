@@ -10,10 +10,10 @@ function Footer() {
         <Grid>
             <GridColumn floated='left' width={8}>
                 <div className="icon-container">
-                <a href="https://github.com/seanRoshan" target="_blank"><Icon link size="large" className="icon-clickable" inverted color="white" name='github' /></a>
-                <a href="https://linkedin.com/in/seanroshan" target="_blank"><Icon link size="large" className="icon-clickable" inverted color="white" name='linkedin' /></a>
-                <a href="https://stackoverflow.com/users/19791206/sean-roshan" target="_blank"><Icon link size="large" className="icon-clickable" inverted color="white" name='stack overflow' /></a>
-                <a href="https://twitter.com/seanRoshandev" target="_blank"><Icon link size="large" className="icon-clickable" inverted color="white" name='twitter' /></a>
+                <a href="https://github.com/seanRoshan" target="_blank"><Icon link size="large" className="icon-clickable footer" inverted color="white" name='github' /></a>
+                <a href="https://linkedin.com/in/seanroshan" target="_blank"><Icon link size="large" className="icon-clickable footer" inverted color="white" name='linkedin' /></a>
+                <a href="https://stackoverflow.com/users/19791206/sean-roshan" target="_blank"><Icon link size="large" className="icon-clickable footer" inverted color="white" name='stack overflow' /></a>
+                <a href="https://twitter.com/seanRoshandev" target="_blank"><Icon link size="large" className="icon-clickable footer" inverted color="white" name='twitter' /></a>
                 </div>
             </GridColumn>
             <GridColumn floated='right' textAlign="right" width={8}>
