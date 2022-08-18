@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import About from './components/About';
 import ContactForm from './components/ContactForm';
 import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
 import { Segment } from "semantic-ui-react";
 function App() {
 
@@ -42,6 +43,7 @@ function App() {
           {currentNavItem.name === 'aboutme' && <About />}
           {currentNavItem.name === 'contact' && <ContactForm />}
           {currentNavItem.name === 'portfolio' && <Portfolio/>}
+          {currentNavItem.name === 'resume' && <Resume/>}
         </Segment>
       </section>
       <div className="app-footer-container"><Footer /></div>
