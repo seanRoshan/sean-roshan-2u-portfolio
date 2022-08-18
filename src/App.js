@@ -3,6 +3,7 @@ import Nav from './components/Nav';
 import Footer from './components/Footer';
 import About from './components/About';
 import ContactForm from './components/ContactForm';
+import Portfolio from './components/Portfolio';
 import { Segment } from "semantic-ui-react";
 function App() {
 
@@ -40,6 +41,7 @@ function App() {
         <Segment basic className="app-content-container">
           {currentNavItem.name === 'aboutme' && <About />}
           {currentNavItem.name === 'contact' && <ContactForm />}
+          {currentNavItem.name === 'portfolio' && <Portfolio/>}
         </Segment>
       </section>
       <div className="app-footer-container"><Footer /></div>
