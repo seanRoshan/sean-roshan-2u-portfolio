@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/sean-roshan-2u-portfolio/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/sean-roshan-2u-portfolio/static/js/main.0937916a.chunk.js",
-    "main.js.map": "/sean-roshan-2u-portfolio/static/js/main.0937916a.chunk.js.map",
-    "runtime-main.js": "/sean-roshan-2u-portfolio/static/js/runtime-main.f2360b5f.js",
-    "runtime-main.js.map": "/sean-roshan-2u-portfolio/static/js/runtime-main.f2360b5f.js.map",
-    "static/js/2.e4f0f4e0.chunk.js": "/sean-roshan-2u-portfolio/static/js/2.e4f0f4e0.chunk.js",
-    "static/js/2.e4f0f4e0.chunk.js.map": "/sean-roshan-2u-portfolio/static/js/2.e4f0f4e0.chunk.js.map",
-    "static/js/3.52435642.chunk.js": "/sean-roshan-2u-portfolio/static/js/3.52435642.chunk.js",
-    "static/js/3.52435642.chunk.js.map": "/sean-roshan-2u-portfolio/static/js/3.52435642.chunk.js.map",
+    "main.css": "/sean-roshan-2u-portfolio/static/css/main.41030e4b.chunk.css",
+    "main.js": "/sean-roshan-2u-portfolio/static/js/main.40f793b4.chunk.js",
+    "main.js.map": "/sean-roshan-2u-portfolio/static/js/main.40f793b4.chunk.js.map",
+    "runtime-main.js": "/sean-roshan-2u-portfolio/static/js/runtime-main.7d951ddf.js",
+    "runtime-main.js.map": "/sean-roshan-2u-portfolio/static/js/runtime-main.7d951ddf.js.map",
+    "static/css/2.92eb3933.chunk.css": "/sean-roshan-2u-portfolio/static/css/2.92eb3933.chunk.css",
+    "static/js/2.9fb7beed.chunk.js": "/sean-roshan-2u-portfolio/static/js/2.9fb7beed.chunk.js",
+    "static/js/2.9fb7beed.chunk.js.map": "/sean-roshan-2u-portfolio/static/js/2.9fb7beed.chunk.js.map",
+    "static/js/3.d345b611.chunk.js": "/sean-roshan-2u-portfolio/static/js/3.d345b611.chunk.js",
+    "static/js/3.d345b611.chunk.js.map": "/sean-roshan-2u-portfolio/static/js/3.d345b611.chunk.js.map",
     "index.html": "/sean-roshan-2u-portfolio/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/sean-roshan-2u-portfolio/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.e4f0f4e0.chunk.js.LICENSE.txt": "/sean-roshan-2u-portfolio/static/js/2.e4f0f4e0.chunk.js.LICENSE.txt"
+    "static/css/2.92eb3933.chunk.css.map": "/sean-roshan-2u-portfolio/static/css/2.92eb3933.chunk.css.map",
+    "static/css/main.41030e4b.chunk.css.map": "/sean-roshan-2u-portfolio/static/css/main.41030e4b.chunk.css.map",
+    "static/js/2.9fb7beed.chunk.js.LICENSE.txt": "/sean-roshan-2u-portfolio/static/js/2.9fb7beed.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/sean-roshan-2u-portfolio/static/media/outline-icons.ddae9b1b.woff",
+    "static/media/logo.103b5fa1.svg": "/sean-roshan-2u-portfolio/static/media/logo.103b5fa1.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f2360b5f.js",
-    "static/js/2.e4f0f4e0.chunk.js",
-    "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.0937916a.chunk.js"
+    "static/js/runtime-main.7d951ddf.js",
+    "static/css/2.92eb3933.chunk.css",
+    "static/js/2.9fb7beed.chunk.js",
+    "static/css/main.41030e4b.chunk.css",
+    "static/js/main.40f793b4.chunk.js"
   ]
 }
