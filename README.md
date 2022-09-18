@@ -2,8 +2,7 @@
 
 Being a web developer means being part of a community. A portfolio is a great place to share projects not only to apply for jobs or working as a freelancer but also so to share projects with fellow developers and collaborate on future projects. This project shows projects that Sean Roshan has done so far.
 
-
-##Deployed Application
+## Deployed Application 
 
 [SeanRoshan React Portfolio](https://seanroshan.github.io/sean-roshan-2u-portfolio/)
 
