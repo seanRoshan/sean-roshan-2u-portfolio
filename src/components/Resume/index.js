@@ -2,7 +2,7 @@ import React,{useState} from "react";
 
 import { Header, Segment, Icon, Button, Card, Feed, Item, Rating } from 'semantic-ui-react';
 
-import resume_pdf from '../../assets/Resume___TORONTO_AUG_2022.pdf';
+import resume_pdf from '../../assets/Resume.pdf';
 
 
 function Resume() {
@@ -155,7 +155,7 @@ function Resume() {
 
             <Card raised fluid>
                 <Card.Content>
-                    <Card.Header>Employment History</Card.Header>
+                    <Card.Header>Education History</Card.Header>
                 </Card.Content>
                 <Card.Content>
                     <Feed>
