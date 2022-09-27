@@ -34,7 +34,8 @@ function App() {
   return (
     <div className="App">
       <div className="header">
-        <header title='Sean Roshan'>
+        <header>
+        <title>Sean Roshan</title>
           <Nav navItems={navigationItems} setCurrentNavItem={setCurrentNavItem} currentNavItem={currentNavItem}></Nav>
         </header>
       </div>
