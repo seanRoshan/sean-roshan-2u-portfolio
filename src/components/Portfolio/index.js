@@ -5,7 +5,8 @@ import wouldYourRather from '../../assets/would-you-rather.jpeg'
 import myReads from '../../assets/myreads.jpeg';
 import chirper from '../../assets/chirper.jpeg';
 import superduperdrive from '../../assets/superduperdrive.jpeg';
-import photoPort from '../../assets/photo-port.jpeg'
+import photoPort from '../../assets/photo-port.jpeg';
+import googleSearchEngine from "../../assets/google-search-engine.jpeg";
 
 function Portfolio(){
 
@@ -63,6 +64,14 @@ In your app, users will be able to answer questions, see which questions they ha
             githubLink: 'https://github.com/seanRoshan/photo-port',
             deployLink: 'https://seanroshan.github.io/photo-port/',
             screenShot: photoPort
+        },
+        {
+            name: 'book-search-engine',
+            title:'Book Search Engine',
+            description:'The Book search engine is an application that is employing MERN (MongoDB, Express, React, Node) Stack and GraphQL. It allows users to Signup, login, logout, search books via Google Book Search API and save their favorite books. They can also see the list of their favorite books and can delete any of the books from the list if they do not like them anymore.',
+            githubLink: 'https://github.com/seanRoshan/book-search-engine',
+            deployLink: 'https://infinite-bastion-30683.herokuapp.com/',
+            screenShot: googleSearchEngine
         }
     ]);
 
